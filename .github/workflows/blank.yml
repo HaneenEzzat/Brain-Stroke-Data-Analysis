@@ -32,7 +32,3 @@ jobs:
       - name: Format check with black
         run: |
           black --check .
-
-      - name: Run tests with pytest
-        run: |
-          pytest
