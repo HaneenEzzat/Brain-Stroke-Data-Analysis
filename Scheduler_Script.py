@@ -43,17 +43,10 @@ def generate_synthetic_data(df, num_samples=10):
 # Function to Append Synthetic Data to Raw Data
 def append_synthetic_data(synthetic_data):
     connection = get_connection()
-    synthetic_data.to_sql(
-        "raw_data",
-        connection,
-        if_exists="append",
-        index=False
-    )
+    synthetic_data.to_sql("raw_data", connection, if_exists="append", index=False)
     connection.commit()
     connection.close()
-    logging.info(
-        f"Appended {len(synthetic_data)} synthetic records to 'raw_data'"
-    )
+    logging.info(f"Appended {len(synthetic_data)} synthetic records to 'raw_data'")
 
 
 # Function to Display Raw Data
