@@ -1,0 +1,12 @@
+# Ignore virtual environment
+venv/
+
+# Ignore dataset files
+healthcare-dataset-stroke-data/
+*.csv
+
+# Ignore sqlite3 files
+demo.db
+synthetic_data.db
+enriche_data.db
+*.db
