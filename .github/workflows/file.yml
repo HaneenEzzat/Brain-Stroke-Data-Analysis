@@ -1,6 +1,7 @@
 name: Python CI for Develop
 
 on:
+  push:
   pull_request:
     branches:
       - develop
