@@ -128,3 +128,4 @@ pca_figure.show()
 # %%
 new_connection = sqlite3.connect("enriched_data.db")
 df.to_sql("clean_stroke", new_connection, if_exists="replace")
+# finish eda
