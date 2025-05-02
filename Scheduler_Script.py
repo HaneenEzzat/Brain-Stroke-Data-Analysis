@@ -93,3 +93,5 @@ except KeyboardInterrupt:
     logging.info("Stopping scheduler...")
     scheduler.shutdown()
     logging.info("Scheduler stopped.")
+
+# End of scheduler
