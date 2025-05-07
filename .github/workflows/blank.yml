@@ -1,10 +1,10 @@
 name: Python CI for Develop
 
 on:
+  push:
   pull_request:
     branches:
       - develop
-  workflow_dispatch:  # Optional manual trigger
 
 jobs:
   build:
@@ -23,12 +23,9 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install flake8 black pytest
+          pip install ruff pytest
 
-      - name: Lint with flake8
+      - name: Lint and format check with Ruff
         run: |
-          flake8 .
-
-      - name: Format check with black
-        run: |
-          black --check .
+          ruff check .           
+          ruff format --check .  
