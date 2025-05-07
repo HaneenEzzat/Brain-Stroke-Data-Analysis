@@ -1,10 +1,7 @@
 # %%
 # Importing libraries and dependencies
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 import sqlite3
-import os
 from sdv.single_table import GaussianCopulaSynthesizer
 from sdv.metadata import SingleTableMetadata
 
