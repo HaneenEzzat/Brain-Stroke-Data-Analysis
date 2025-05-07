@@ -1,10 +1,7 @@
 # %%
 # Importing libraries and dependencies
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 import sqlite3
-import os
 from sdv.single_table import GaussianCopulaSynthesizer
 from sdv.metadata import SingleTableMetadata
 
@@ -39,7 +36,7 @@ data_sql.shape
 
 # %% [markdown]
 # **Data Synthesizing**
-# 
+#
 
 # %%
 # Detect metadata from the original dataset
@@ -54,7 +51,7 @@ synthesizer.fit(data_sql)
 
 # %%
 # Generate synthetic data (same number of rows as original data)
-synthetic_data = synthesizer.sample(num_rows=2*len(data_sql))
+synthetic_data = synthesizer.sample(num_rows=2 * len(data_sql))
 
 print("\nSynthetic Data:")
 print(synthetic_data.head())
