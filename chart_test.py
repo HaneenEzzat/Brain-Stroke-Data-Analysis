@@ -1,12 +1,6 @@
 import pandas as pd
-import sqlite3
 import plotly.graph_objects as go
 import numpy as np
-
-
-connection = sqlite3.connect("enriche_data.db")
-query = "SELECT * FROM clean_stroke"
-df = pd.read_sql(query, connection)
 
 
 def chart1(df):
