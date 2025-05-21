@@ -6,7 +6,7 @@ import numpy as np
 from taipy.gui import Gui, Icon, navigate
 
 
-connection = sqlite3.connect("enriche_data.db")
+connection = sqlite3.connect("data/enriche_data.db")
 query = "SELECT * FROM clean_stroke"
 df = pd.read_sql(query, connection)
 
