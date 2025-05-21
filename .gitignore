@@ -8,5 +8,4 @@ healthcare-dataset-stroke-data/
 # Ignore sqlite3 files
 demo.db
 synthetic_data.db
-enriche_data.db
-*.db
+data_source.db
