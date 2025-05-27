@@ -1,11 +1,15 @@
 #  Brain Stroke Data Analysis
 
 ##  Project Summary
-This project analyzes stroke risks using health and demographic data from the [Stroke Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset). It applies:
+This project analyzes stroke risks using health and demographic data from the [Stroke Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset). 
+<br>
+🎯✨ Live Dashboard:
+
+<p align="center"> <a href="https://brain-stroke-data-analysis.onrender.com/general" target="_blank"> 🚀 <strong>Click here to explore the Stroke Risk Dashboard</strong> 🌐 </a> </p>
+It applies:
 - An automated ETL pipeline
 - Exploratory data analysis (EDA) techniques to visualize risk factors and identify key patterns through an interactive Taipy dashboard.
 - Techniques to visualize risk factors and identify key patterns through an interactive **Taipy dashboard**.
-🔗 Live Dashboard: [View Dashboard](https://brain-stroke-data-analysis.onrender.com/general)
 ---
 
 ## Core Idea
