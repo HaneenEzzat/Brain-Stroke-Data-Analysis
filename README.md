@@ -9,7 +9,8 @@ This project analyzes stroke risks using health and demographic data from the [S
 It applies:
 - An automated ETL pipeline
 - Exploratory data analysis (EDA) techniques to visualize risk factors and identify key patterns through an interactive Taipy dashboard.
-- Techniques to visualize risk factors and identify key patterns through an interactive **Taipy dashboard**.
+- Techniques to visualize risk factors and identify key patterns through an interactive Taipy dashboard.
+
 ---
 
 ## Core Idea
