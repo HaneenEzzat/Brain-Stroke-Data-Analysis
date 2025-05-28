@@ -44,7 +44,7 @@ The goal is to build a data-driven, interactive dashboard that helps in understa
 git clone https://github.com/HaneenEzzat/Brain-Stroke-Data-Analysis.git
 cd Brain-Stroke-Data-Analysis
 python dashboard.py
-
+```
 ---
 
 ## 📄 License
